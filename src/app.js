@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/header.js';
 import Main from './components/main.js';
 import Footer from './components/footer.js';
+import './style/app.scss';
 
 
 function App() {
