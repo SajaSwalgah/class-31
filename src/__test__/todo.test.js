@@ -1,6 +1,7 @@
 import React from 'react';
 import Enzyme, { mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
+import renderer from 'react-test-renderer';
 import Main from '../components/main.js';
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -25,5 +26,10 @@ describe('Our components are functioning', () => {
     let foot = mount(<Footer />);
     let footer = foot.find('footer');
     expect(footer.exists()).toBeTruthy();
+  });
+  
+  it('render correctly to the DOM', ()=> {
+    let app = renderer.create(<Main />);
+    expect(app).toMatchSnapshot();
   });
 });
