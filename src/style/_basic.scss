@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 600px 600px;
+    
 
 
 }
@@ -18,6 +19,7 @@ body{
 
 button  {
     @extend .button-basic;
+    
     background-color: rgb(14, 18, 53);
     color: white;
     margin-left: 80px;
@@ -43,6 +45,9 @@ p {
 #title{
     font-weight: bolder;
     margin-bottom: 20px;
+    font-size: 30px;
+    color:rgba(128, 0, 64, 0.801)
+
 }
 
 
@@ -115,6 +120,30 @@ footer{
 
   #state{
       margin-left: 80px;
+  }
+
+  li{
+    margin-left: 80px;
+    font-size: medium;
+    font-weight: bolder;
+    list-style-type:none;
+    border: solid;
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    
+
+  
+
+  }
+  #assignee{
+    font-size: medium;
+    font-weight: normal;
+    margin-left: 50px;
+ 
+
+
   }
 
 
