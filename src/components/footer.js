@@ -3,11 +3,11 @@
 import React from 'react';
 
 const Footer = () => {
-    return(
-        <footer>
+  return(
+    <footer>
             @codefellows2020
-        </footer>
-    )
-}
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

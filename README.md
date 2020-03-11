@@ -1,12 +1,12 @@
-#  LAB - Class 31
+#  LAB - Class 32
 
-## Hooks API
+## Custom Hooks
 
 ### Author: Saja Swalgah
 
 ### Links and Resources
 
-- [submission PR](https://github.com/SajaSwalgah/class-31/pull/1)
+- [submission PR](https://github.com/SajaSwalgah/class-31/pull/2)
 - [Netlify Deploy](https://angry-galileo-a0c0cf.netlify.com/)
 
 
@@ -19,4 +19,4 @@
 
 #### UML
 
-![](img/class-31.jpg)
+![](img/class-32.jpg)

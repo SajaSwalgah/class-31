@@ -1,18 +1,20 @@
 import React from 'react';
 import Header from './components/header.js';
-import Main from './components/main.js';
+// import Main from './components/main.js';
+// import Todo from './components/todo.js';
+import Todo from './components/todo-connected.js';
 import Footer from './components/footer.js';
-import './style/app.scss';
 
 
 function App() {
-    return (
-        <React.Fragment>
-            <Header />
-            <Main />
-            <Footer />
-        </React.Fragment>
-    )
+  return (
+    <React.Fragment>
+      <Header />
+      <Todo />
+      {/* <Main /> */}
+      <Footer />
+    </React.Fragment>
+  );
 }
 
 
