@@ -7,7 +7,7 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/SajaSwalgah/class-31/pull/2)
-- [Netlify Deploy](https://angry-galileo-a0c0cf.netlify.com/)
+- [Netlify Deploy](https://optimistic-leakey-b8e819.netlify.com/)
 
 
 
