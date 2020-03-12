@@ -1,6 +1,6 @@
-#  LAB - Class 32
+#  LAB - Class 33
 
-## Custom Hooks
+## Context API
 
 ### Author: Saja Swalgah
 
@@ -19,4 +19,4 @@
 
 #### UML
 
-![](img/class-32.jpg)
+![](img/class-33.jpg)
