@@ -199,7 +199,7 @@ font-size: 20px;
     overflow: auto;        
     margin-left: 30%;
     position: absolute;
-    margin-top: 300px;
+    margin-top: 500px;
     
 }
 .pages{
@@ -209,15 +209,61 @@ font-size: 20px;
 }
 
 .button{
-    // background: transparent;
-    // border:nonse;
-    color:rgb(0, 0, 10);
-    cursor:pointer;
-    padding:0;
-    margin: 0 .75em;
-    font-size: 20px;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:rgb(231, 209, 209) ;
     &:hover {
-        background: black;
-        color: wheat;
+        background: rgb(22, 1, 1);
+        color: white
     }
+}
+
+.auth{
+
+    z-index: 1;  
+    left: 0;
+    top: 0;    
+    overflow: auto;        
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 300px;
+
+}
+
+.login{
+    margin-bottom: 20px;
+    
+}
+
+.logg{
+    border: .5px solid rgb(161, 158, 158);
+    display:inline-block;
+    padding: .2em .25em;
+    width: 200px;
+    height: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.log{
+
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:rgb(231, 209, 209) ;
+    &:hover {
+        background: rgb(22, 1, 1);
+        color: white
+    }
+
+}
+
+.ability{
+    font-size: 20px;
+    margin-top: 20px;
 }

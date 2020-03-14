@@ -1,6 +1,6 @@
-#  LAB - Class 33
+#  LAB - Class 34
 
-## Context API
+## <Login /> and <Auth />
 
 ### Author: Saja Swalgah
 
@@ -19,4 +19,4 @@
 
 #### UML
 
-![](img/class-33.jpg)
+![](img/class-34.jpg)
